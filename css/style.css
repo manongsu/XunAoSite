@@ -27,7 +27,7 @@ header nav li.active a{font-weight: bold;}
 header nav li a:hover{font-weight: bold;color:#fff;text-decoration: none;}
 header a.tel{float: right;height: 33px;border-radius: 17px;line-height:33px;background-color: rgba(0,0,0,0.2);padding: 0 13px;margin: 20px 0 0 10px;}
 header a.tel:hover{color: #fff;text-decoration: none;}
-header a.tel img{}
+header a.tel img{margin-right:6px;}
 /*手机导航*/
 .btn_phoneMenu{position:absolute;top:0;right:0;z-index:99;height: 100%;}
 .btn_phoneMenu img{height: 33px;margin: 20px;}
