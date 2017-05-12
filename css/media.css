@@ -13,8 +13,8 @@
     .typeList .typeText{position: absolute;top:20px;left:20px;}
     .typeText h3{margin: 0 0 10px 0;font-size: 14px;line-height: 16px;}
     .typeText p{line-height: 20px;}
-    .timeLine li{height:63px;padding: 0 6px !important;margin-bottom: 10px;}
-    .timeLine li>div{padding: 19px 20px 14px;}
+    .timeLine li{height:60px;padding: 0 6px !important;margin-bottom: 10px;}
+    .timeLine li>div{padding: 15px;}
     .timeLine li>div .year{font-size: 16px;line-height: 16px;}
     .timeLine li>div .date{font-size: 14px;line-height: 14px;}
     .timeLine li>div .imgWrap{line-height:30px;}
