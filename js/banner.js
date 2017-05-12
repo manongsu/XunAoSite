@@ -91,7 +91,7 @@ $(function () {
     }, false);
     /*自动*/
     setInterval(function () {
-        if(waitTime==5000){
+        if(waitTime==7000){
             var next = prev + 1;
             if(next>liCount-1){
                 special = 1;
@@ -101,9 +101,9 @@ $(function () {
             }
             bannerSlider(next);
         }
-    },5000);
+    },7000);
     setInterval(function () {
-        if(waitTime<5000){
+        if(waitTime<7000){
             waitTime+=100;
         }
     },100);
