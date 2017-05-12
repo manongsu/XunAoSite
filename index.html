@@ -11,12 +11,14 @@
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="stylesheet" href="css/media.css">
+
 </head>
 <body>
 <!--header-->
     <header>
         <div class="main">
             <h1 class="h1"><a href=""><img src="images/logo.png" alt=""></a></h1>
+            <a class="tel color_fff mHidden" href="tel:400-775-3259"><img src="images/header_icon.png" alt="">400-775-3259</a>
             <nav class="mHidden">
                 <ul>
                     <li class="active font18"><a class="color_fff" href="">首页</a></li>
@@ -42,9 +44,16 @@
     </nav>
     <!--banner-->
     <div class="banner">
-        <ul>
+        <ul class="bannerList">
+            <li><a href=""></a></li>
+            <li style="background:url('images/banner1.png') top center no-repeat;background-size: cover;"><a href=""></a></li>
             <li><a href=""></a></li>
         </ul>
+        <ul class="imgList" style="display: none;">
+            <li style="background:url('images/banner1.png') top center no-repeat;background-size: cover;"></li>
+            <li style="background:url('images/banner2.png') top center no-repeat;background-size: cover;"></li>
+        </ul>
+        <ol></ol>
     </div>
     <!--type-->
     <div class="type">
@@ -329,7 +338,7 @@
                     <li><a class="font14" href="">联系我们</a></li>
                     <li><a class="font14" href="">人才招聘</a></li>
                     <li><a class="font14" href="">关于迅傲</a></li>
-                    <li><a class="font14" href="">荣誉资质</a></li>
+                    <li><a class="font14" href="" style="border:none;">荣誉资质</a></li>
                 </ul>
             </div>
         </div>
@@ -337,8 +346,37 @@
         <p class="font14" style="color:#999;margin-top: 13px;">沪ICP备08010768号  © 2008-2017 Xun-ao.com All rights reserved.</p>
         <p style="margin-top: 20px;"><img src="images/country.png" alt=""></p>
     </footer>
+    <aside class="mHidden">
+        <ul>
+            <li>
+                <a href="">
+                    <span class="color_fff">热线咨询</span><div class="imgWrap"><img src="images/qq.png" alt=""></div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="color_fff">售后服务</span><div class="imgWrap"><img src="images/listen.png" alt=""></div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="color_fff">400-775-3259</span><div class="imgWrap"><img src="images/tel.png" alt=""></div>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="color_fff">微信公众号</span><div class="imgWrap"><img src="images/wx.png" alt=""></div>
+                </a>
+            </li>
+        </ul>
+        <div class="goTop">
+            <img src="images/angleTop.png" alt="">
+            <p class="font16 color_fff">TOP</p>
+        </div>
+    </aside>
     <div id="mask" style="width: 100%;height: 100%;background-color: rgba(0,0,0,.5);position: fixed;top:0;left:0;display: none;z-index: 100;"></div>
     <script src="js/jquery.1.9.1.js"></script>
+    <script src="js/banner.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <!--banner宽度-->
     <script type="text/javascript">
@@ -352,11 +390,9 @@
         }
         $(function () {
             bannerWidth();
-            console.log(111)
         });
         $(window).resize(function(){
             bannerWidth();
-            console.log(222)
         });
     </script>
     <!--侧滑--搜索-->
@@ -389,6 +425,32 @@
                 }else{
                     $("header").css("background-color","rgba(0,0,0,0)");
                 }
+            });
+        })
+    </script>
+    <!--aside-->
+    <script type="text/javascript">
+        $(function () {
+            if($(window).scrollTop()==0){
+                $(window).scroll(function () {
+                    $("aside").animate({
+                        width: "68px"
+                    },500);
+                });
+            }else{
+                $("aside").css({width: "68px"});
+            }
+            $("aside").hover(function () {
+                $("aside").animate({
+                    width: "210px"
+                },500);
+            },function () {
+                $("aside").animate({
+                    width: "68px"
+                },500);
+            });
+            $(".goTop").click(function () {
+                $('body,html').animate({scrollTop:0},500);
             });
         })
     </script>
