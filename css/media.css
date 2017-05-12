@@ -13,7 +13,7 @@
     .typeList .typeText{position: absolute;top:20px;left:20px;}
     .typeText h3{margin: 0 0 10px 0;font-size: 14px;line-height: 16px;}
     .typeText p{line-height: 20px;}
-    .timeLine li{height:63px;padding: 0 6px !important;}
+    .timeLine li{height:63px;padding: 0 6px !important;margin-bottom: 10px;}
     .timeLine li>div{padding: 19px 20px 14px;}
     .timeLine li>div .year{font-size: 16px;line-height: 16px;}
     .timeLine li>div .date{font-size: 14px;line-height: 14px;}
@@ -38,14 +38,13 @@
     footer p.xunchuan1{font-size: 15px;line-height: 17px;margin-top: 25px;}
     .mHidden{display: none;}
     .mShow{display: block;}
-
 }
 @media screen and (min-width:768px) and (max-width:991px) {
     .main{width: 100%;margin: 0 auto;padding: 0 10px;}
     .title h2{font-size: 24px;line-height:24px;padding: 0 10px;}
     .title p{font-size: 14px;padding: 0 10px;}
     .typeList li{padding:0 6px !important;margin-bottom: 24px;}
-    .timeLine li{height:76px;padding:0 6px !important;}
+    .timeLine li{height:76px;padding:0 6px !important;margin-bottom: 10px;}
     .programList li{padding: 0 10px !important;}
     .companyList li{width: 33.333333%;height:126px;}
     .companyList li.mborderR0{border-right: none;}

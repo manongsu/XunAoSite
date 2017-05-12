@@ -64,7 +64,7 @@ nav.phoneMenu .menu_link li.active{background-color: #3d3d3d;border-top: 1px sol
 }
 .typeList .typeText{position: absolute;top:30px;left:30px;}
 .typeText h3{margin: 0 0 13px 0;font-size: 20px;line-height: 20px;}
-.typeText p{line-height: 27px;}
+.typeText p{line-height: 27px;letter-spacing: 5px;}
 .timeLine{margin-bottom: 0;overflow: hidden;}
 .timeLine li{height:76px;}
 .timeLine li>div{width: 100%;height:100%;background-color: #fff;padding: 19px 20px 14px;}
@@ -105,7 +105,7 @@ nav.phoneMenu .menu_link li.active{background-color: #3d3d3d;border-top: 1px sol
 /*company*/
 .company{width: 100%;background-color: #f6f6f6;}
 .companyList{margin-bottom: 0;overflow: hidden;padding-bottom: 58px;}
-.companyList li{width: 20%;height:126px;float:left;border-bottom: 1px solid #e8e8e8;border-right: 1px solid #e8e8e8;font-size: 0;text-align: center;line-height: 125px;}
+.companyList li{width: 20%;height:126px;float:left;border-bottom: 1px solid #e8e8e8;border-right: 1px solid #e8e8e8;font-size: 0;text-align: center;line-height: 125px;overflow:hidden;}
 /*分公司*/
 .branchOffice{width: 100%;background-color: #f6f6f6;}
 .branchOffice ul{overflow: hidden;margin-bottom: 0;}
