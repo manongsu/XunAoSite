@@ -347,13 +347,17 @@
             var width = $("body").width();
             if(width<=1024){
                 $(".banner").css("height",width/16*9);
+            }else{
+                $(".banner").css("height",100%);
             }
         }
         $(function () {
             bannerWidth();
+            console.log(111)
         });
         $(window).resize(function(){
             bannerWidth();
+            console.log(222)
         });
     </script>
     <!--侧滑--搜索-->
