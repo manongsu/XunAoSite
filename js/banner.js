@@ -51,7 +51,7 @@ $(function () {
         }
         $(".banner ol").css("marginLeft","-"+$(".banner ol").width()/2+"px")
     }
-    banner()
+    banner();
     ol();
     bannerSlider(0);
     $("ol>li").click(function () {
@@ -107,4 +107,9 @@ $(function () {
             waitTime+=100;
         }
     },100);
+});
+$(window).resize(function(){
+    var bannerWidth = $(".banner").width();
+    $(".bannerList").css("width",3*bannerWidth);
+    $(".bannerList li").css("width",bannerWidth);
 });
