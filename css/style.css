@@ -107,7 +107,7 @@ nav.phoneMenu .menu_link li.active{background-color: #3d3d3d;border-top: 1px sol
 .programList{margin-bottom: 0;overflow: hidden;padding-bottom: 46px;}
 .programList li{height:282px;padding: 0;font-size:0;text-align: center;margin-bottom: 50px;}
 .programList li .imgWrap{height: 205px;line-height: 205px;}
-.programList li .des h3{font-size:20px;line-height:20px;font-weight: normal;margin-bottom: 13px;}
+.programList li .des h3{font-size:20px;line-height:20px;font-weight: normal;margin-bottom: 13px;margin-top: 0;}
 .programList li .des p{line-height:21px;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;}
 /*company*/
 .company{width: 100%;background-color: #f6f6f6;}
