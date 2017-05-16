@@ -122,7 +122,7 @@ nav.phoneMenu .menu_link li.active{background-color: #3d3d3d;border-top: 1px sol
 .branchOffice ul li p a{color: #333;}
 .branchOffice ul li p a:hover{text-decoration: none;}
 /*footer*/
-footer{width: 100%;background-color: #323232;height: 307px;}
+footer{width: 100%;background-color: #323232;height: 267px;}
 footer .links{border-bottom:1px solid #424242;height: 58px;padding: 22px 0;}
 footer .links ul{overflow: hidden;margin-bottom: 0;}
 footer .links li{width: 20%;float:left;text-align: center;line-height: 16px;}
