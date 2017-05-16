@@ -116,7 +116,7 @@ nav.phoneMenu .menu_link li.active{background-color: #3d3d3d;border-top: 1px sol
 /*分公司*/
 .branchOffice{width: 100%;background-color: #f6f6f6;}
 .branchOffice ul{overflow: hidden;margin-bottom: 0;}
-.branchOffice ul li{height: 255px;padding:140px 0 0 0;font-size:0;position: relative;}
+.branchOffice ul li{height: 255px;padding:140px 0 0 0;border-right:1px solid #f3f3f3;font-size:0;position: relative;}
 .branchOffice ul li img{position: absolute;top: 50px;left: 50px;}
 .branchOffice ul li p{line-height: 24px;margin-bottom: 0;position: relative;z-index: 9;margin-left: 50px;}
 .branchOffice ul li p a{color: #333;}
