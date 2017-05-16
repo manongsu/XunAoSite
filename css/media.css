@@ -26,7 +26,9 @@
     .caseList li .des .imgWrap{line-height: 30px;}
     .case .switch{height:55px;padding: 10px;}
     .case .switch div{top:10px;}
-    .programList li{padding: 0 5px !important;}
+    .programList li{padding: 0 5px !important;height: auto;margin-bottom: 10px;}
+    .programList li .imgWrap{height: auto;line-height:1;}
+    .programList li .imgWrap img{width: 100%;}
     .companyList li{width: 33.333333%;height:126px;}
     .companyList li.mborderR0{border-right: none;}
     .companyList li.mborderB0{border-bottom: none;}
