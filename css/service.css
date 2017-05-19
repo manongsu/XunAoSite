@@ -18,9 +18,9 @@
 .second .typeList>li{float: left;height: 50%;border-right: 1px solid #ebebeb;border-bottom: 1px solid #ebebeb;text-align: center;padding: 0 5px;position: relative;}
 .second .typeList>li img{height: 30%;}
 .second .typeList>li>h3{margin: 0;font-size: 36px;line-height: 36px;font-weight: bold;}
-.second .typeList>li ul{width:100%;height:100%;position: absolute;top:0;left:0;background:url("../images/typeList.png") no-repeat;background-size:100% 100%;display: none;}
+.second .typeList>li ul{}
 .second .typeList>li ul h3{color:#fff;font-size: 24px;}
-.second .typeList>li li{font-size: 14px;line-height:25px;padding: 0;color: #fff;}
+.second .typeList>li li{font-size: 14px;line-height:25px;padding: 0;text-align: center;}
 /*third*/
 .screenList li.third{background:url('../images/service3.png') center no-repeat;background-size: 100% auto;position: relative;}
 .screenList li.third h2{text-align: center;margin: 0;color: #fff;}
@@ -48,8 +48,12 @@
 .fifth .formGroup.left{padding:0 10px 0 0;}
 .fifth .formGroup.right{padding:0 0px 0 10px;}
 .fifth .formGroup>div{background-color: #202020;height: 100%;padding-left: 15px;}
-.fifth .formGroup>div label{color: #999;display:inline;height: 100%;width: 80px;margin: 0;float: left;font-size: 14px;}
+.fifth .formGroup>div label{color: #999;display:inline;height: 100%;width: 80px;margin: 0;float: left;font-size: 14px;font-weight: normal;}
 .fifth .formGroup>div input{height: 100%;width:75%;background: none;color: #fff;font-size: 14px;}
 .fifth textarea{width:100%;background: #202020;color: #fff;font-size: 14px;}
 .fifth button{width:416px;background: url("../images/button.png") no-repeat;background-size:100% 100%;color: #fff;font-size: 14px;margin: 0 220px;}
 footer{position: absolute;bottom: 0;}
+aside{position: fixed;top:50%;right:45px;margin-left: -40px;padding: 10px 5px;background-color: #fff;border-radius: 10px;}
+aside ol{margin: 0;}
+aside li{width: 10px;height: 10px;background-color: #e4e4e4;margin-bottom: 5px;border-radius: 5px;}
+aside li.active{background-color: #3a82db;}
