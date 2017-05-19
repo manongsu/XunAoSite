@@ -18,12 +18,12 @@
 .second .typeList>li{float: left;height: 50%;border-right: 1px solid #ebebeb;border-bottom: 1px solid #ebebeb;text-align: center;padding: 0 5px;position: relative;}
 .second .typeList>li img{height: 30%;}
 .second .typeList>li>h3{margin: 0;font-size: 24px;line-height: 24px;font-weight: bold;}
-.second .typeList>li ul{padding: 0 15px;}
+.second .typeList>li ul{padding: 0 15px;position: absolute;bottom:40px;}
 .second .typeList>li ul h3{color:#fff;font-size: 24px;}
 .second .typeList>li li{font-size: 14px;line-height:25px;padding: 0;text-align: center;}
 /*third*/
 .screenList li.third{background:url('../images/service3.png') center no-repeat;background-size: 100% auto;position: relative;}
-.screenList li.third h2{text-align: center;margin: 0;color: #fff;}
+.screenList li.third h2{text-align: center;margin: 0;color: #fff;font-size: 32px;}
 .third ul{width: 1200px;position: absolute;left:50%;margin-left: -600px;}
 .third li{width: 100px;min-height:14px;float: left;font-size: 14px;text-align: center;color: #fff;position: relative;}
 .third li.point h3{position: absolute;bottom:0;font-size: 16px;height:16px;margin: 0;width: 100%;text-align: center;}
@@ -41,7 +41,7 @@
 .screenList li.forth .middle{left:50%;}
 /*fifth*/
 .screenList li.fifth{background-color:#242424;position: relative;}
-.fifth h2{font-size: 36px;line-height: 36px;color: #fff;text-align: center;}
+.fifth h2{font-size: 32px;line-height: 32px;color: #fff;text-align: center;}
 .fifth .contactMessage{width:440px;height:62px;margin:0 auto;border-radius: 31px;background: url("../images/contactMessage.png") no-repeat;background-size: 100% 100%;padding:15px 0 15px 20px;}
 .fifth .contactMessage p{color: #c5c5c5;font-size: 14px;line-height: 14px;margin: 0;}
 .fifth form{width: 856px;margin: 0 auto;}
