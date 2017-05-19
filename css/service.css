@@ -19,7 +19,7 @@
 .second .typeList>li{float: left;height: 50%;border-right: 1px solid #ebebeb;border-bottom: 1px solid #ebebeb;text-align: center;padding: 0 5px;position: relative;}
 .second .typeList>li img{height: 30%;}
 .second .typeList>li>h3{margin: 0;font-size: 24px;line-height: 24px;font-weight: bold;}
-.second .typeList>li ul{padding: 0 15px;position: absolute;bottom:40px;}
+.second .typeList>li ul{width:100%;padding: 0 15px;position: absolute;bottom:40px;}
 .second .typeList>li ul h3{color:#fff;font-size: 24px;}
 .second .typeList>li li{font-size: 14px;line-height:25px;padding: 0;text-align: center;}
 /*third*/

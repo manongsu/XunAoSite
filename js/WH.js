@@ -86,7 +86,7 @@ $(function () {
     function contact() {
         var height = $(".fifth").height();
         $(".fifth").css({
-            "paddingTop":height/1080*20,
+            "paddingTop":height/1080*40,
         })
         $(".fifth h2").css({
             "marginBottom":height/1080*20
