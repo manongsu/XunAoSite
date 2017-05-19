@@ -371,19 +371,6 @@
         }) ;
     });
 </script>
-<!--header-->
-<script type="text/javascript">
-    $(function () {
-        $(window).scroll(function () {
-            var scrollTop = $(window).scrollTop();
-            if(scrollTop>0){
-                $("header").css("background-color","rgba(0,0,0,0.5)");
-            }else{
-                $("header").css("background-color","rgba(0,0,0,0)");
-            }
-        });
-    })
-</script>
 <!--fullPage-->
 <script type="text/javascript">
     $(function () {
@@ -396,6 +383,11 @@
                 });
                 num = i;
                 $("aside li").eq(i).addClass("active").siblings("li").removeClass("active");
+                if(num>0){
+                    $("header").css("background-color","rgba(0,0,0,0.5)");
+                }else{
+                    $("header").css("background-color","rgba(0,0,0,0)");
+                }
             }
             var num = 0;var flag = 1;
             scroll(num);
