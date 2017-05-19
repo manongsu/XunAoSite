@@ -1,30 +1,38 @@
 .screenList{width: 100%;height: 100%;margin-bottom:0;position: relative;}
 .screenList>li{width: 100%;height: 100%;font-size: 0;}
-
+/*first*/
 .screenList li.first{background:url('../images/service1.png') top center no-repeat;background-size: cover;position: relative;}
 .screenList li.first .thinking{position: absolute;top:50%;left:50%;z-index: 2;}
 .first .thinking h2{font-size: 45px;color: #fff;line-height: 50px;text-align: center;margin: 0;}
 .first .thinking p{font-size: 20px;color: #fff;line-height: 25px;text-align: center;margin: 0;}
 .first .thinking p.top{margin-top: 44px;}
-
+/*second*/
 .screenList li.second{background-color: #fff;}
 .second .typeList{overflow: hidden;width:100%;height: 100%;}
 .second .typeList>li{float: left;height: 50%;border-right: 1px solid #ebebeb;border-bottom: 1px solid #ebebeb;text-align: center;padding: 0 5px;position: relative;}
 .second .typeList>li img{height: 30%;}
-.second .typeList>li h3{margin: 0;font-size: 24px;line-height: 24px;font-weight: bold;}
-.second .typeList>li ul{width:100%;height:100%;position: absolute;top:0;left:0;background-color: rgba(0,0,0,.5);display: none;}
+.second .typeList>li>h3{margin: 0;font-size: 24px;line-height: 24px;font-weight: bold;}
+.second .typeList>li ul{width:100%;height:100%;position: absolute;top:0;left:0;background:url("../images/typeList.png") no-repeat;background-size:100% 100%;display: none;}
+.second .typeList>li ul h3{color:#fff;font-size: 24px;}
 .second .typeList>li li{font-size: 14px;line-height:25px;padding: 0;color: #fff;}
-
+/*third*/
 .screenList li.third{background:url('../images/service3.png') center no-repeat;background-size: 100% auto;position: relative;}
 .screenList li.third h2{text-align: center;margin: 0;color: #fff;}
-
+.third ul{width: 1300px;position: absolute;left:50%;margin-left: -650px;}
+.third li{width: 100px;min-height:14px;float: left;font-size: 14px;text-align: center;color: #fff;position: relative;}
+.third li.point h3{position: absolute;bottom:0;font-size: 16px;height:16px;margin: 0;width: 100%;text-align: center;}
+.third li.point img{position: absolute;font-size: 16px;}
+.third li.point .works{position: absolute;font-size: 14px;width: 100%;text-align: center;}
+.third li.process img{position: absolute;width: 70%;left:15%;}
+.third li.process p{position: absolute;width: 100%;font-size: 14px;}
+/*forth*/
 .screenList li.forth{background:url('../images/service4.png') center no-repeat;background-size: cover;position: relative;text-align: center;}
 .screenList li.forth img{width: 130px;}
 .screenList li.forth>h2{font-size:22px !important;color: #fff;margin-top:-5px;}
 .screenList li.forth h2{font-size:24px;color: #fff;}
 .screenList li.forth p{font-size:14px;color: #fff;text-align: left;}
 .screenList li.forth .middle{left:50%;}
-
+/*fifth*/
 .screenList li.fifth{background-color:#242424;position: relative;}
 .fifth h2{font-size: 45px;line-height: 45px;color: #fff;text-align: center;}
 .fifth .contactMessage{width:440px;height:62px;margin:0 auto;border-radius: 31px;background: url("../images/contactMessage.png") no-repeat;background-size: 100% 100%;padding:15px 0 15px 20px;}
@@ -39,8 +47,6 @@
 .fifth button{width:416px;background: url("../images/button.png") no-repeat;background-size:100% 100%;color: #fff;font-size: 14px;margin: 0 220px;}
 footer{position: absolute;bottom:0;left:0;}
 footer p{margin: 10px !important;}
-
-
 aside{position: fixed;top:50%;right:45px;margin-left: -40px;padding: 10px 5px;background-color: #fff;border-radius: 10px;}
 aside ol{margin: 0;}
 aside li{width: 10px;height: 10px;background-color: #e4e4e4;margin-bottom: 5px;border-radius: 5px;}
