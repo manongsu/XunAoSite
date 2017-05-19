@@ -24,11 +24,12 @@
 /*third*/
 .screenList li.third{background:url('../images/service3.png') center no-repeat;background-size: 100% auto;position: relative;}
 .screenList li.third h2{text-align: center;margin: 0;color: #fff;}
-.third ul{width: 1300px;position: absolute;left:50%;margin-left: -650px;}
+.third ul{width: 1200px;position: absolute;left:50%;margin-left: -600px;}
 .third li{width: 100px;min-height:14px;float: left;font-size: 14px;text-align: center;color: #fff;position: relative;}
 .third li.point h3{position: absolute;bottom:0;font-size: 16px;height:16px;margin: 0;width: 100%;text-align: center;}
 .third li.point img{position: absolute;font-size: 16px;}
 .third li.point .works{position: absolute;font-size: 14px;width: 100%;text-align: center;}
+.third li.process{width: 83.333333px;}
 .third li.process img{position: absolute;width: 70%;left:15%;}
 .third li.process p{position: absolute;width: 100%;font-size: 14px;}
 /*forth*/
