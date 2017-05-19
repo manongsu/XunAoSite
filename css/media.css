@@ -58,7 +58,8 @@
     .mShow{display: block;}
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
-    .main{width: 1000px;margin: 0 auto;}
+    .main{width: 100%;margin: 0 auto;padding: 0 10px;}
+    header nav li{width:100px;}
     .companyList li{overflow: hidden;}
     .companyList li.pborderR0{border-right: none;}
     .companyList li.pborderB0{border-bottom: none;}
