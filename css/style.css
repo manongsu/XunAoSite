@@ -2,7 +2,7 @@
 a{text-decoration: none;}
 ol,ul,li{list-style: none;}
 /*1200-居中*/
-.main{width: 1200px;margin: 0 auto;overflow: hidden;}
+.main{width: 1200px;margin: 0 auto;}
 /*font-size*/
 .font12{font-size: 12px;}
 .font14{font-size: 14px;}
@@ -11,6 +11,7 @@ ol,ul,li{list-style: none;}
 /*color*/
 .color_fff{color: #fff;}
 .color_666{color: #666;}
+.color_333{color: #333;}
 /*body*/
 html,body{width: 100%;height: 100%;transition: transform .5s ease}
 .swipe{transform: translateX(-130px);margin-right: -130px;overflow: hidden;}
