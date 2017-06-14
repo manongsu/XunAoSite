@@ -72,14 +72,32 @@
 .programList li .des p{line-height:21px;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;}
 /*company*/
 .company{width: 100%;background-color: #f6f6f6;}
-.companyList{margin-bottom: 0;overflow: hidden;padding-bottom: 58px;}
-.companyList li{width: 20%;height:126px;float:left;border-bottom: 1px solid #e8e8e8;border-right: 1px solid #e8e8e8;font-size: 0;text-align: center;line-height: 125px;overflow:hidden;}
+.companyList{margin-bottom: 0;overflow: hidden;padding-bottom: 75px;}
+.companyList li{width: 20%;height:102px;float:left;font-size: 0;text-align: center;line-height: 102px;margin-bottom: 33px;}
+.companyList li img{width:79%;}
+.companyList li div{background-color: #fff;border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,0.08);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.08);
+}
+.companyList li:nth-child(5n+1){padding:0 46px 0 0;}
+.companyList li:nth-child(5n+2){padding:0 34.5px 0 11.5px;}
+.companyList li:nth-child(5n+3){padding:0 23px;}
+.companyList li:nth-child(5n+4){padding:0 11.5px 0 34.5px;}
+.companyList li:nth-child(5n+5){padding:0 0 0 46px;}
 /*分公司*/
-.branchOffice{width: 100%;background-color: #f6f6f6;}
-.branchOffice ul{overflow: hidden;margin-bottom: 0;}
-.branchOffice ul li{height: 255px;padding:140px 0 0 0;border-right:1px solid #f3f3f3;font-size:0;position: relative;}
-.branchOffice ul li img{position: absolute;top: 50px;left: 50px;}
-.branchOffice ul li p{line-height: 24px;margin-bottom: 0;position: relative;z-index: 9;margin-left: 50px;}
+.branchOffice{width: 100%;height:261px;background-color: #f6f6f6;}
+.branchOffice ul{margin-bottom: 0;width: 100%;height: 189px;margin-bottom: 72px;}
+.branchOffice ul li{height: 189px;font-size:0;position: relative;}
+.branchOffice ul li div{background-color: #fff;padding-top: 41px;height: 189px;border-radius: 4px;}
+.branchOffice ul li:nth-child(1){padding:0 18px 0 0;}
+.branchOffice ul li:nth-child(2){padding:0 9px;}
+.branchOffice ul li:nth-child(3){padding:0 0 0 18px;}
+.branchOffice ul li:nth-child(1) img{position: absolute;bottom: 109px;right: 38px;}
+.branchOffice ul li:nth-child(2) img{position: absolute;bottom: 112px;right: 29px;}
+.branchOffice ul li:nth-child(3) img{position: absolute;bottom: 113px;right: 20px;}
+.branchOffice ul li h3{height: 38px;line-height: 38px;font-size: 18px;margin:0 0 15px 30px;font-weight: bold;   }
+.branchOffice ul li p{line-height: 24px;margin-bottom: 0;position: relative;z-index: 9;margin-left: 30px;}
 .branchOffice ul li p a{color: #333;}
 .branchOffice ul li p a:hover{text-decoration: none;}
 /*aside*/
