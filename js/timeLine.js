@@ -11,7 +11,17 @@ function timeLine() {
         cxt.fill();
     }
     /*画时间节点---声明*/
-    function timnPiont(x,y) {
+    function timePiont(x,y) {
+        /*var i=0;
+        var int = setInterval(function () {
+            i=i+0.1
+            if(i<=1){
+                drawPoint(timeLine,x,y,10,"rgba(153,153,153,"+i+")");
+                drawPoint(timeLine,x,y,5,"rgba(0,0,0,"+i+")");
+            }else{
+                clearInterval(int)
+            }
+        },1)*/
         drawPoint(timeLine,x,y,10,"#ccc");
         drawPoint(timeLine,x,y,5,"#0096ff");
     }
@@ -37,7 +47,7 @@ function timeLine() {
         cxt.closePath();
     }
     /*第一个时间节点--执行*/
-    timnPiont(382,10);
+    timePiont(382,10);
     $(".historyText .timePoint").eq(0).fadeIn(500);
     /*第一段动画--执行*/
     var i1 = 19;
@@ -55,7 +65,7 @@ function timeLine() {
                 curve(timeLine,302,187,80,"#f5f5f5",i2,++i2,false)
                 if(i2==50){
                     clearInterval(int2);
-                    timnPiont(302,267);
+                    timePiont(302,267);
                     $(".historyText .timePoint").eq(1).fadeIn(500);
                     var i3 = 292;
                     var int3 = setInterval(function () {
@@ -66,7 +76,7 @@ function timeLine() {
                         }
                         if(i3==94){
                             clearInterval(int3);
-                            timnPiont(94,267);
+                            timePiont(94,267);
                             $(".historyText .timePoint").eq(2).fadeIn(500);
                             var i4 = 150;
                             var int4 = setInterval(function () {
@@ -82,7 +92,7 @@ function timeLine() {
                                         }
                                         if(i5==302){
                                             clearInterval(int5);
-                                            timnPiont(302,427);
+                                            timePiont(302,427);
                                             $(".historyText .timePoint").eq(3).fadeIn(500);
                                             var i6 = 312;
                                             var int6 = setInterval(function () {
@@ -93,7 +103,7 @@ function timeLine() {
                                                 }
                                                 if(i6==532){
                                                     clearInterval(int6);
-                                                    timnPiont(532,427);
+                                                    timePiont(532,427);
                                                     $(".historyText .timePoint").eq(4).fadeIn(500);
                                                     var i7 = 542;
                                                     var int7 = setInterval(function () {
@@ -109,7 +119,7 @@ function timeLine() {
                                                                 curve(timeLine,680,507,80,"#f5f5f5",i8,++i8,false);
                                                                 if(i8==50){
                                                                     clearInterval(int8);
-                                                                    timnPiont(680,587);
+                                                                    timePiont(680,587);
                                                                     $(".historyText .timePoint").eq(5).fadeIn(500);
                                                                     var i9 = 670;
                                                                     var int9 = setInterval(function () {
@@ -125,7 +135,7 @@ function timeLine() {
                                                                                 curve(timeLine, 462, 667, 80, "#f5f5f5", i10, --i10, true);
                                                                                 if(i10==100){
                                                                                     clearInterval(int10);
-                                                                                    timnPiont(382,667);
+                                                                                    timePiont(382,667);
                                                                                     $(".historyText .timePoint").eq(6).fadeIn(500);
                                                                                     var i11 = 677;
                                                                                     var int11 = setInterval(function () {
@@ -136,7 +146,7 @@ function timeLine() {
                                                                                         }
                                                                                         if(i11==787){
                                                                                             clearInterval(int11);
-                                                                                            timnPiont(382,787);
+                                                                                            timePiont(382,787);
                                                                                             $(".historyText .timePoint").eq(7).fadeIn(500);
                                                                                             var i12 = 797;
                                                                                             var int12 = setInterval(function () {
@@ -147,7 +157,7 @@ function timeLine() {
                                                                                                 }
                                                                                                 if(i12==907){
                                                                                                     clearInterval(int12);
-                                                                                                    timnPiont(382,907);
+                                                                                                    timePiont(382,907);
                                                                                                     $(".historyText .timePoint").eq(8).fadeIn(500);
                                                                                                     var i13 = 917;
                                                                                                     var int13 = setInterval(function () {
@@ -158,7 +168,7 @@ function timeLine() {
                                                                                                         }
                                                                                                         if(i13==1027){
                                                                                                             clearInterval(int13);
-                                                                                                            timnPiont(382,1027);
+                                                                                                            timePiont(382,1027);
                                                                                                             $(".historyText .timePoint").eq(9).fadeIn(500);
                                                                                                         }
                                                                                                     },1);
