@@ -9,7 +9,7 @@
 .tabList li a:active{text-decoration: none;}
 .tabList li.active{font-weight: bold}
 .tabList li:last-child{margin-right:0}
-.tabList div{position: absolute;bottom:0px;left:-6px;width: 76px;height: 2px;background-color: #0979ec;}
+.tabList div{position: absolute;bottom:0;left:-6px;width: 76px;height: 2px;background-color: #0979ec;}
 /*--------------------introduce--------------------*/
 /*公司文字介绍*/
 .intro_text{margin-bottom: 45px;}
@@ -71,15 +71,6 @@
 .historyText .timePoint:nth-child(8){position: absolute;top:760px;left:415px;}
 .historyText .timePoint:nth-child(9){position: absolute;top:870px;left:185px;}
 .historyText .timePoint:nth-child(10){position: absolute;top:980px;left:415px;}
-
-
-
-
-
-
-
-
-
 /*灵感空间*/
 .space{margin-bottom: 50px;}
 .space h2{padding-top: 48px;font-size: 36px;line-height: 36px;text-align: center;position: relative;font-weight:bold;margin: 0 0 12px;}
@@ -87,7 +78,8 @@
 .space>p{text-align: center;font-size: 14px;line-height: 14px;margin: 0 0 40px;color: #999;}
 .space>p span{display: inline-block;width: 11px;height: 1px;background-color: #999;margin: 6px;}
 .space ul{padding: 0 60px;margin-bottom: 0;overflow: hidden;}
-.space ul li{padding: 0;background-color: #999;overflow: hidden;height: 255px;}
+.space ul li{padding: 0;background-color: #999;overflow: hidden;height: 255px;border-right:2px solid #fff;border-bottom:2px solid #fff;text-align: center;overflow: hidden;}
+.space ul li img{width: 100%;}
 /*合作伙伴*/
 .company{margin-bottom: 120px;}
 .company h2{padding-top: 48px;font-size: 36px;line-height: 36px;text-align: center;position: relative;font-weight:bold;margin: 0 0 12px;}
@@ -153,8 +145,8 @@
 .join .job li p.email a{color: #333;text-decoration: underline;}
 .join .job li span{position: absolute;top:21px;right:21px;display: block;width: 47px;height: 24px;border: 1px solid #dedede;font-size:14px;color: #999;line-height: 24px;text-align: center;}
 /*分公司*/
-.branchOffice{width: 100%;height:261px;background-color: #fff;padding: 0px 0 50px;}
-.branchOffice ul{margin-bottom: 0;width: 100%;height: 189px;margin-bottom: 72px;}
+.branchOffice{width: 100%;height:261px;background-color: #fff;padding: 0 0 50px;}
+.branchOffice ul{width: 100%;height: 189px;margin-bottom: 72px;}
 .branchOffice ul li{height: 189px;font-size:0;position: relative;}
 .branchOffice ul li div{background-color: #fff;padding-top: 41px;height: 189px;border-radius: 4px;border: 1px solid #eee;}
 .branchOffice ul li:nth-child(1){padding:0 18px 0 0;}
@@ -175,7 +167,6 @@
     .culture li:nth-child(3){padding: 0 ;}
 
     .space ul{padding: 0 15px;}
-    .space ul li:nth-child(2n){background-color: #666;}
     .company li{width: 33.333333%;}
     .company li:nth-child(3n){border-right:none;}
     .company li:nth-child(13),.company li:nth-child(14),.company li:nth-child(15){border-bottom:none;}
@@ -189,17 +180,14 @@
     .culture li:nth-child(3){padding: 0 ;}
 
     .space ul{padding: 0 15px;}
-    .space ul li:nth-child(2n){background-color: #666;}
     .company li{width: 33.333333%;}
     .company li:nth-child(3n){border-right:none;}
     .company li:nth-child(13),.company li:nth-child(14),.company li:nth-child(15){border-bottom:none;}
     .company li img{width: 70%;}
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
-    .space ul li:nth-child(2),.space ul li:nth-child(4),.space ul li:nth-child(6),.space ul li:nth-child(7),.space ul li:nth-child(9),.space ul li:nth-child(11){background-color: #666;}
 }
 @media screen and (min-width:1200px){
-    .space ul li:nth-child(2),.space ul li:nth-child(4),.space ul li:nth-child(6),.space ul li:nth-child(7),.space ul li:nth-child(9),.space ul li:nth-child(11){background-color: #666;}
     .company li:nth-child(5n){border-right:none;}
     .company li:nth-child(11),.company li:nth-child(12),.company li:nth-child(13),.company li:nth-child(14),.company li:nth-child(15){border-bottom:none;}
 }

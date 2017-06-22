@@ -208,3 +208,9 @@ function timeLine() {
     },1);
 }
 timeLine();
+/*
+$(window).scroll(function () {
+    console.log($(window).scrollTop())
+    //timeLine($(window).scrollTop());
+});
+*/
