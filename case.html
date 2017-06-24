@@ -385,8 +385,12 @@
     $(function () {
        $(".caseList li").hover(function () {
             $(this).children(".hover").fadeIn(500);
+            $(this).children(".des").addClass("active")
+            $(this).children(".des").children(".imgWrap").children("img").attr("src","images/typeMoreWhite.png");
        },function () {
            $(this).children(".hover").fadeOut(500);
+           $(this).children(".des").removeClass("active")
+           $(this).children(".des").children(".imgWrap").children("img").attr("src","images/typeMore.png");
        });
     });
 </script>

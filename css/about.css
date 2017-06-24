@@ -20,7 +20,7 @@
 .culture{margin-bottom: 68px;}
 .culture h2{padding-top: 48px;font-size: 36px;line-height: 36px;text-align: center;position: relative;font-weight:bold;margin: 0 0 12px;}
 .culture h2 span{display: block;width: 124px;height: 1px;background-color: #e5e5e5;position: absolute;top:0;left:50%;margin-left: -62px;}
-.culture .main>p{text-align: center;font-size: 14px;line-height: 14px;margin: 0 0 44px;color: #999;}
+.culture .main>p{text-align: center;font-size: 14px;line-height: 14px;margin: 0 0 44px;color: #999;height: 14px;}
 .culture .main>p span{display: inline-block;width: 11px;height: 1px;background-color: #999;margin: 6px;}
 .culture ul{width:100%;margin-bottom: 0;}
 .culture li{padding: 0;text-align: center;}
@@ -54,7 +54,7 @@
 .history{margin-bottom: 68px;position: relative;}
 .history h2{padding-top: 48px;font-size: 36px;line-height: 36px;text-align: center;position: relative;font-weight:bold;margin: 0 0 12px;}
 .history h2 span{display: block;width: 124px;height: 1px;background-color: #e5e5e5;position: absolute;top:0;left:50%;margin-left: -62px;}
-.history .main>p{text-align: center;font-size: 14px;line-height: 14px;margin: 0 0 40px;color: #999;}
+.history .main>p{text-align: center;font-size: 14px;line-height: 14px;margin: 0 0 40px;color: #999;height: 14px;}
 .history .main>p span{display: inline-block;width: 11px;height: 1px;background-color: #999;margin: 6px;}
 .history canvas{width: 764px;height: 1088px;}
 .historyText{width: 764px;height: 1088px;background-color:rgba(0,0,0,0);position: absolute;top:151px;left:50%;margin-left: -382px;}
@@ -84,7 +84,7 @@
 .company{margin-bottom: 120px;}
 .company h2{padding-top: 48px;font-size: 36px;line-height: 36px;text-align: center;position: relative;font-weight:bold;margin: 0 0 12px;}
 .company h2 span{display: block;width: 124px;height: 1px;background-color: #e5e5e5;position: absolute;top:0;left:50%;margin-left: -62px;}
-.company .main>p{text-align: center;font-size: 14px;line-height: 14px;margin: 0 0 44px;color: #999;}
+.company .main>p{text-align: center;font-size: 14px;line-height: 14px;margin: 0 0 44px;color: #999;height: 14px;}
 .company .main>p span{display: inline-block;width: 11px;height: 1px;background-color: #999;margin: 6px;}
 .company ul{overflow: hidden;}
 .company li{width: 20%;height: 125px;float: left;border-right: 1px solid #f0f0f0;border-bottom: 1px solid #f0f0f0;text-align: center;line-height: 125px;}
@@ -126,7 +126,7 @@
 /*加入我们*/
 .join{padding-bottom: 30px;background-color: #f0f0f0;}
 .join h2{padding-top: 50px;font-size: 36px;line-height: 36px;text-align: center;position: relative;font-weight:bold;margin: 0 0 12px;}
-.join .main>p{text-align: center;font-size: 14px;line-height: 14px;margin: 0 0 30px;color: #999;}
+.join .main>p{text-align: center;font-size: 14px;line-height: 14px;margin: 0 0 30px;color: #999;height: 14px;}
 .join .main>p span{display: inline-block;width: 11px;height: 1px;background-color: #999;margin: 6px;}
 .join .address{width:444px;height:40px;margin: 0 auto 30px;}
 .join .address li{float:left;width: 96px;height: 40px;font-size: 16px;line-height: 40px;text-align: center;background-color: #fff;color: #666;margin-right: 20px;}
