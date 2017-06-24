@@ -100,7 +100,7 @@
 .newsContent .newsDes{width:66.5%;float: left;font-size: 16px;line-height: 16px;color: #555;margin-bottom: 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 .newsType{height: 45px;padding-top: 19px;}
 .typeList{width: 100%;height: 24px;}
-.newsType li{float:left;height:24px;padding:0 11px;background-color: #f0f0f0;font-size: 14px;line-height:28px;color:#666;margin-right: 10px;}
+.newsType li{float:left;height:24px;padding:0 11px;background-color: #f0f0f0;font-size: 14px;line-height:26px;color:#666;margin-right: 10px;}
 .newsPages{height: 37px;width: 100%;margin-bottom: 40px;}
 .pageList{width: 270px;height:37px;margin: 0 auto;}
 .pageList li{width: 27px;height:37px;float: left;text-align: center;position: relative;}
