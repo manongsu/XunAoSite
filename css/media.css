@@ -54,7 +54,7 @@
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
     .main{width: 100%;margin: 0 auto;padding: 0 10px;}
-    header nav li{width:100px;}
+    header nav li{width:77px;}
 
     footer p{padding:0 10px;}
     footer p.xunchuan1{line-height: 30px;}

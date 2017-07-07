@@ -110,7 +110,7 @@
 .newsActive::after{position: absolute;bottom:10px;left:50%;margin-left: -3px;width: 6px;height: 6px;background-color:#0979ec;content:"";border-radius:6px;}
 /*--------------------迅傲团队--------------------*/
 /*迅傲团队*/
-.person{margin-bottom: 50px;}
+.person{margin-bottom: 140px;}
 .person h2{font-size: 32px;line-height: 32px;margin: 60px 0 20px;text-align: center;font-weight:bold;}
 .person p{font-size: 16px;line-height: 24px;text-align: center;color: #666;margin-bottom:46px;}
 .person ul{margin-bottom: 0;overflow: hidden;}
@@ -186,6 +186,7 @@
     .company li img{width: 70%;}
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
+
 }
 @media screen and (min-width:1200px){
     .company li:nth-child(5n){border-right:none;}

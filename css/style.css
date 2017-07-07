@@ -14,7 +14,7 @@ ol,ul,li{list-style: none;}
 .color_333{color: #333;}
 /*body*/
 html,body{width: 100%;height: 100%;transition: transform .5s ease}
-.swipe{transform: translateX(-130px);margin-right: -130px;overflow: hidden;}
+.swipe{transform: translate(-130px,0px) scale(1) translateZ(0px);margin-right: -130px;overflow: hidden;}
 /*,title*/
 .title{padding: 60px 0;}
 .title h2{font-size: 36px;line-height:36px;margin: 0 0 13px;text-align: center;}
