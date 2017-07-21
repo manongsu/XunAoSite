@@ -17,8 +17,9 @@ header a.tel:hover{color: #333;}
 /*案例*/
 .case{width: 100%;}
 .caseList{margin-bottom: 0;overflow: hidden;background-color: #fff;}
-.caseList li{padding: 0;font-size:0;position: relative;}
-.caseList li img{width: 100%;}
+.caseList li{padding: 0;font-size:0;position: relative;overflow: hidden;}
+.caseList li .img_box{width:100%;position:relative;overflow: hidden;}
+.caseList li .img_box img{width: 100%;}
 .caseList li .des{height: 80px;padding: 20px;}
 .caseList li .des h3{line-height: 18px;margin: 0 0 8px;}
 .caseList li .des p{margin:0;line-height: 16px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}

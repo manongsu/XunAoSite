@@ -170,6 +170,10 @@
     .company li{width: 33.333333%;}
     .company li:nth-child(3n){border-right:none;}
     .company li:nth-child(13),.company li:nth-child(14),.company li:nth-child(15){border-bottom:none;}
+
+
+
+    .person li{width: 25%;}
     .company li img{width: 80%;}
 }
 @media screen and (min-width:768px) and (max-width:991px) {
