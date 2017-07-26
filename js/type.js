@@ -216,14 +216,16 @@ $(function () {
             });
             $(".type3 .circle1").animate({
                 "top":"80px",
-            },1000,function () {
+            },800,function () {
                 $(".type3").rotate({
                     center:["50%","50%"],
                     angle:0,
                     animateTo: 180,
+                    duration:800,
                     easing: function (x,t,b,c,d){        // t: current time, b: begInnIng value, c: change In value, d: duration
+                        //console.log(c*(t/d)+b);
+                        //console.log(d);
                         return c*(t/d)+b;
-                        alert(c*(t/d)+b)
                     }
                 });
                 $(".type3 .circle1").animate({
@@ -231,19 +233,19 @@ $(function () {
                     "height":"230px",
                     "margin-left":"-115px",
                     "top":"40px"
-                },1000)
+                },800)
                 $(".type3 .circle2").animate({
                     "width":"230px",
                     "height":"230px",
                     "margin-left":"-115px",
                     "bottom":"40px"
-                },1000,function () {
+                },800,function () {
                     type3_flag = 0;
                 })
             });
             $(".type3 .circle2").animate({
                 "bottom":"80px",
-            },1000);
+            },800);
         }
     }
     function type3_static(){
