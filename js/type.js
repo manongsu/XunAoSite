@@ -74,7 +74,7 @@ $(function () {
             });
             $(".type2").css({
                 "width":$(".type2").parent().width(),
-                "left":"6px",
+                "left":"0px",
             });
             $(".type2").rotate({
                 center:["50%","50%"],
@@ -142,9 +142,50 @@ $(function () {
                 }
             });
         }
-
     }
-    type2();
+    function type2_static() {
+        $(".type2_wrap").css({
+            "width":$(".type2_wrap").parent().width(),
+            "left":"6px",
+        });
+        $(".type2").css({
+            "width":$(".type2").parent().width(),
+            "left":"0px",
+            "transform": "rotate(0deg)",
+            "transform-origin": "50% 50% 0px"
+        });
+        $(".type2 .fans1").css({
+            "left":"-20px",
+            "top":"80px",
+            "transform": "rotate(90deg)",
+            "transform-origin": "50% 50% 0px"
+        });
+        $(".type2 .fans2").css({
+            "right":"18px",
+            "top":"123px",
+            "transform": "rotate(90deg)",
+            "transform-origin": "50% 50% 0px"
+        });
+        $(".type2 .fans3").css({
+            "right":"-140px",
+            "bottom":"-206px",
+            "transform": "rotate(90deg)",
+            "transform-origin": "50% 50% 0px"
+        });
+        $(".type2 .fans4").css({
+            "left":"-48px",
+            "bottom":"0",
+            "transform": "rotate(90deg)",
+            "transform-origin": "50% 50% 0px"
+        });
+        $(".type2 .fans5").css({
+            "left":"14px",
+            "top":"50px",
+            "transform": "rotate(90deg)",
+            "transform-origin": "50% 50% 0px"
+        });
+    }
+    type2_static();
     $(".typeList li").eq(1).mouseenter(function () {
         type2()
     });
@@ -159,7 +200,7 @@ $(function () {
             });
             $(".type3").css({
                 "width":$(".type3").parent().width(),
-                "left":"12px",
+                "left":"0",
             });
             $(".type3 .circle1").css({
                 "width":"184px",
@@ -204,9 +245,32 @@ $(function () {
                 "bottom":"80px",
             },1000);
         }
-
     }
-    type3();
+    function type3_static(){
+        $(".type3_wrap").css({
+            "width":$(".type3_wrap").parent().width(),
+            "left":"12px",
+        });
+        $(".type3").css({
+            "width":$(".type3").parent().width(),
+            "left":"0",
+            "transform": "rotate(180deg)",
+            "transform-origin": "50% 50% 0px"
+        });
+        $(".type3 .circle1").css({
+            "width":"230px",
+            "height":"230px",
+            "margin-left":"-115px",
+            "top":"40px"
+        })
+        $(".type3 .circle2").css({
+            "width":"230px",
+            "height":"230px",
+            "margin-left":"-115px",
+            "bottom":"40px"
+        })
+    }
+    type3_static();
     $(".typeList li").eq(2).mouseenter(function () {
         type3()
     });
@@ -236,7 +300,16 @@ $(function () {
             })
         }
     }
-    type4();
+    function type4_static(){
+        $(".type4").css({
+            "width":$(".type4").parent().width(),
+            "left":"18px",
+        });
+        $(".type4 img").css({
+            "right":"48px"
+        });
+    }
+    type4_static();
     $(".typeList li").eq(3).hover(function () {
         type4()
     },function () {
