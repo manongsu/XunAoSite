@@ -57,7 +57,7 @@
 .type3 div.circle2 img:nth-child(2){z-index: 98;}
 /*type3*/
 .type4{width: 100%;height: 100%;position: absolute;top:0;left:0;overflow: hidden;border-radius: 10px;}
-.type4 img{position: absolute;top:-33px;right:48px;z-index: 999;}
+.type4 img{position: absolute;top:-33px;right:48px;z-index: 99;}
 .timeLine{margin-bottom: 0;overflow: hidden;}
 .timeLine li{height:76px;}
 .timeLine li>div{width: 100%;height:100%;background-color: #fff;padding: 15px;}

@@ -19,7 +19,7 @@
 <!--header-->
     <header>
         <h1 class="h1"><a href="index.html" title="上海迅傲信息科技股份有限公司"><img src="images/xun-ao.png" alt="上海迅傲信息科技股份有限公司"/></a></h1>
-        <a href="" class="video mHidden"><img src="images/video.png" alt="直播"/></a>
+        <a href="" class="video mHidden"><img src="images/video.png" alt="直播电商"/></a>
         <a href="" class="vr mHidden"><img src="images/vr.png" alt="AR移动增强现实"/></a>
         <a class="tel color_fff mHidden" href="tel:400-775-3259"><img src="images/header_icon.png" alt="迅傲科技服务热线"/>400-775-3259</a>
         <nav class="mHidden">
@@ -54,6 +54,7 @@
         <ul class="imgList" style="display: none;">
             <li style="background:url('images/banner.jpg') top center no-repeat;background-size: cover;"></li>
             <li style="background:url('images/banner1.jpg') top center no-repeat;background-size: cover;"></li>
+            <li style="background:url('images/banner3.jpg') top center no-repeat;background-size: cover;"></li>
         </ul>
         <ol></ol>
     </div>
@@ -576,7 +577,7 @@
     <!--aside-->
     <script type="text/javascript">
         $(function () {
-            if($(window).scrollTop()==0){
+            if($(window).scrollTop() == 0){
                 $(window).scroll(function () {
                     $("aside").animate({
                         width: "68px"
@@ -601,46 +602,46 @@
     </script>
 
     <!--宽度自适应-->
-<script type="text/javascript">
-    /*banner*/
-    function hover() {
-        var width = $(".caseList li .hover").width();
-        $(".caseList li .hover").css("height",width);
-        $(".img_box").css("height",width);
-    }
-    $(function () {
-        hover();
-    });
-    $(window).resize(function(){
-        hover();
-    });
-</script>
+    <script type="text/javascript">
+        /*banner*/
+        function hover() {
+            var width = $(".caseList li .hover").width();
+            $(".caseList li .hover").css("height",width);
+            $(".img_box").css("height",width);
+        }
+        $(function () {
+            hover();
+        });
+        $(window).resize(function(){
+            hover();
+        });
+    </script>
     <!--tabBtn-->
-<script type="text/javascript">
-    $(function () {
-       $(".caseList li").hover(function () {
-            $(this).children(".hover").fadeIn(500);
-            $(this).children(".des").addClass("active")
-            $(this).children(".des").children(".imgWrap").children("img").attr("src","images/typeMoreWhite.png");
-            $(this).find("img").css("position","relative");
-            $(this).children(".img_box").children("img").animate({
-                height:"120%",
-                width:"120%",
-                top:"-10%",
-                left:"-10%"
-            },300);
-       },function () {
-           $(this).children(".hover").fadeOut(500);
-           $(this).children(".des").removeClass("active")
-           $(this).children(".des").children(".imgWrap").children("img").attr("src","images/typeMore.png");
-            $(this).children(".img_box").children("img").animate({
-                height:"100%",
-                width:"100%",
-                top:"0%",
-                left:"0%"
-            },300);
-       });
-    });
-</script>
+    <script type="text/javascript">
+        $(function () {
+           $(".caseList li").hover(function () {
+                $(this).children(".hover").fadeIn(500);
+                $(this).children(".des").addClass("active")
+                $(this).children(".des").children(".imgWrap").children("img").attr("src","images/typeMoreWhite.png");
+                $(this).find("img").css("position","relative");
+                $(this).children(".img_box").children("img").animate({
+                    height:"120%",
+                    width:"120%",
+                    top:"-10%",
+                    left:"-10%"
+                },300);
+           },function () {
+               $(this).children(".hover").fadeOut(500);
+               $(this).children(".des").removeClass("active")
+               $(this).children(".des").children(".imgWrap").children("img").attr("src","images/typeMore.png");
+                $(this).children(".img_box").children("img").animate({
+                    height:"100%",
+                    width:"100%",
+                    top:"0%",
+                    left:"0%"
+                },300);
+           });
+        });
+    </script>
 </body>
 </html>
