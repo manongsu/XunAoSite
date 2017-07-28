@@ -140,7 +140,7 @@
 .join .job li div{background-color: #fff;border-radius: 4px;position: relative;}
 .join .job li h3{font-size: 30px;line-height: 100px;height: 100px;text-align: center;margin: 0;}
 .join .job li h4{font-size: 14px;line-height: 14px;height: 14px;font-weight:bold;margin-bottom: 27px;margin-left: 50px;}
-.join .job li p{font-size: 14px;line-height: 27px;margin-left: 50px;}
+.join .job li p{font-size: 14px;line-height: 27px;margin:0 50px;}
 .join .job li p.email{font-size: 16px;line-height: 84px;border-top: 1px solid #f0f0f0;margin-left: 0;margin-bottom: 0;text-align: center;}
 .join .job li p.email a{color: #333;text-decoration: underline;}
 .join .job li span{position: absolute;top:21px;right:21px;display: block;width: 47px;height: 24px;border: 1px solid #dedede;font-size:14px;color: #999;line-height: 24px;text-align: center;}
